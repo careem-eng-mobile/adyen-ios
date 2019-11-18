@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://adyen.com'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Adyen' => 'support@adyen.com' }
-  s.source = { :git => 'https://github.com/careem-eng-mobile/adyen-ios.git', , :branch => 'release-1.16' }
+  s.source = { :git => 'https://github.com/careem-eng-mobile/adyen-ios.git', :branch => 'release-1.16' }
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.frameworks = 'Foundation'
