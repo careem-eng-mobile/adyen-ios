@@ -1,7 +1,7 @@
 version = `agvtool vers -terse`
 
 Pod::Spec.new do |s|
-  s.name = 'Adyen'
+  s.name = 'Adyen-1.16'
   s.version = version
   s.summary = "Adyen SDK for iOS"
   s.description = <<-DESC
