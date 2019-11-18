@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://adyen.com'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'Adyen' => 'support@adyen.com' }
-  s.source = { :git => 'https://github.com/Adyen/adyen-ios.git', :tag => "#{s.version}" }
+  s.source = { :git => 'https://github.com/careem-eng-mobile/adyen-ios.git', , :branch => 'release-1.16' }
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.frameworks = 'Foundation'
@@ -74,6 +74,6 @@ Pod::Spec.new do |s|
             'Adyen/CoreUI/Assets/*.lproj/*.strings'
         ]
     }
-    plugin.dependency 'Adyen/Core'
+    plugin.dependency 'Adyen-1.16/Core'
   end
 end
